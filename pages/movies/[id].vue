@@ -16,7 +16,7 @@ definePageMeta({
 const route = useRoute();
 // this is the exact same as useAsyncData with the $fetch request
 const { data, error } = await useFetch(
-  `http://www.omdbapi.com/?apikey=1e7eaa8d&i=${route.params.id}`,
+  `https://www.omdbapi.com/?apikey=1e7eaa8d&i=${route.params.id}`,
   {
     pick: ["Plot", "Title", "Poster", "Error"],
     key: `/movies/${route.params.id}`,
