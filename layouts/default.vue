@@ -13,5 +13,5 @@
 <script setup lang="ts">
 /* const isLoggedIn = useState("isLoggedIn", () => false); */
 /* const isLoggedIn = useIsLoggedIn(); */
-const user = userUser();
+const user = useUser();
 </script>
